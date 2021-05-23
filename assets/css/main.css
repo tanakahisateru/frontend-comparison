@@ -1,0 +1,6 @@
+.toggle-button.on {
+    background-color: #ccc;
+}
+.toggle-button.off {
+    background-color: #eee;
+}
