@@ -48,7 +48,7 @@ $manifest = json_decode(file_get_contents(__DIR__ . '/assets/dist/manifest.json'
     </script>
 
     <h2>Alpine.js ad-hoc use</h2>
-    <div id="toggle-demo-alpine" x-data="{shown: false}">
+    <div id="toggle-demo-alpine-ad-hoc" x-data="{shown: false}">
         <button class="toggle-button" x-bind:class="{'on': shown, 'off':!shown}" x-on:click="shown = !shown">Toggle</button>
         <div x-show="shown" style="display: none;">
             <p>Hello</p>
@@ -57,7 +57,7 @@ $manifest = json_decode(file_get_contents(__DIR__ . '/assets/dist/manifest.json'
     </div>
 
     <h2>Alpine.js with external model</h2>
-    <div id="toggle-demo-alpine" x-data="alpineToggleContent({shown: false})">
+    <div id="toggle-demo-alpine-external-model" x-data="alpineToggleContent({shown: false})">
         <button class="toggle-button" x-bind:class="{'on': shown, 'off':!shown}" x-on:click="toggle()">Toggle</button>
         <div x-show="shown" style="display: none;">
             <p>Hello</p>
