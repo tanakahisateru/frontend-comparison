@@ -13,8 +13,8 @@ export default class extends Controller {
     }
 
     update() {
-        let button = this.buttonTarget;
-        let content = this.contentTarget;
+        const button = this.buttonTarget;
+        const content = this.contentTarget;
         if (this.shown) {
             content.style.display = null;
             button.classList.add("on");
