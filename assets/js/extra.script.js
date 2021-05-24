@@ -1,3 +1,0 @@
-const extraConfig = {
-    foo: "bar"
-};
